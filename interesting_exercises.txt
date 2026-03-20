@@ -15,4 +15,4 @@ Part III: Data and Algorithms
 	17_chapter: exercise_1_2_3_4.
 	18_chapter: exercise_14_15.
 	19_chapter: exercise_6.
-	21_chapter: exercise_10.
+	21_chapter: exercise_9.
