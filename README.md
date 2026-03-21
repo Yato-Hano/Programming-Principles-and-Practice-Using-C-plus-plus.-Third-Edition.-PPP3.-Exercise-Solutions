@@ -1,2 +1,2 @@
-# Programming-Principles-and-Practice-Using-C++ Third-Edition-.-PPP3-
+# Programming Principles and Practice Using C++. Third Edition. PPP3
 Exercise Solutions
