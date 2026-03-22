@@ -1,18 +1,18 @@
 Part I: The Basics
-	3_chapter: exercise_5, exercise_11.
-	4_chapter: exercise_12_13.
-	7_chapter: exercise_7_8.
-	8_chapter: exercise_5_6_7_8_9.
+	3_chapter: exercise_5 (Number guessing program), exercise_11 (Game ‘‘Rock, Paper, Scissors.’’).
+	4_chapter: exercise_12_13 (Numbers guessing game).
+	7_chapter: exercise_7_8 (Sorting experiment).
+	8_chapter: exercise_5_6_7_8_9 (Library class).
 
 Part II: Input and Output
-	9_chapter: exercise_4, exercise_25.
-	11_chapter: exercise_1, exercise_12_13_14_15, exercise_18.
-	12_chapter: exercise_5_6_7.
-	14_chapter: exercise_8.
+	9_chapter: exercise_4 (Multi input), exercise_25 (Input and output streams experiment).
+	11_chapter: exercise_1 (Arrow class: GUI), exercise_12_13_14_15 (Right_triangle class: GUI), exercise_18 (Box_with rounded_corners class: GUI).
+	12_chapter: exercise_5_6_7 (Striped_closed_polyline class: GUI).
+	14_chapter: exercise_8 (Currency converter: GUI).
 
 Part III: Data and Algorithms
-	15_chapter: exercise_15.
-	17_chapter: exercise_1_2_3_4.
-	18_chapter: exercise_14_15.
-	19_chapter: exercise_6.
-	21_chapter: exercise_9.
+	15_chapter: exercise_15 (Skip_list class).
+	17_chapter: exercise_1_2_3_4 (Matrix class).
+	18_chapter: exercise_14_15 (‘‘Hunt the Wumpus’’ game: GUI).
+	19_chapter: exercise_6 (find-and-replace operation for Documents class).
+	21_chapter: exercise_9 (Entering Orders into files: GUI).
