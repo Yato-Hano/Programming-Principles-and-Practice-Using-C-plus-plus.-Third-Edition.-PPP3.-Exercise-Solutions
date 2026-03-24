@@ -1,11 +1,11 @@
 /*
 [14] 
-Provide a GUI interface and a bit of graphical output to the ‘‘Hunt the Wumpus’’ game
+Provide a GUI interface and a bit of graphical output to the â€˜â€˜Hunt the Wumpusâ€™â€™ game
 from the exercises in Chapter 16. Take the input in an input box and display a map of the
 part of the cave currently known to the player in a window.
 [15]
 Modify the program from the previous exercise to allow the user to mark rooms based on
-knowledge and guesses, such as ‘‘maybe bats’’ and ‘‘bottomless pit.’’
+knowledge and guesses, such as â€˜â€˜maybe batsâ€™â€™ and â€˜â€˜bottomless pit.â€™â€™
 */
 
 // console version 16_chapter: exercise_13. 
@@ -106,6 +106,7 @@ ostream& operator<<(ostream& os, const Cave& gs)
 	if (wumpus_is_nearby(gs.cave[gs.player_in_room])) os << "I smell the wumpus\n";
 	if (pit_is_nearby(gs.cave[gs.player_in_room])) os << "I feel a breeze\n";
 	if (bat_is_nearby(gs.cave[gs.player_in_room])) os << "I hear a bat\n";
+	os << gs.arrows_left << " arrows left.\n";
 	return os;
 }
 
@@ -195,7 +196,7 @@ Outcome Action::affect(Cave& c,ostream&os)
 	return Outcome::not_over;
 }
 istream& operator>>(istream& is, Action& a)
-//s13–4–3
+//s13â€“4â€“3
 //m13
 //l13
 {
