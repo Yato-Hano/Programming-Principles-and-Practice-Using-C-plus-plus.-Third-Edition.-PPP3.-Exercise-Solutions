@@ -510,7 +510,7 @@ void HW_Game::run_cb()
 			if (g.outcome() == Outcome::not_over)
 			{
 				os << g.cave_state() << '\n';
-				os << "move of shoot (m or s)\n";
+				os << "move or shoot (m or s)\n";
 			}
 		}
 		print_outcome(os, g.outcome()); // an end game message
@@ -532,7 +532,7 @@ HW_Game::HW_Game(Application& a)
 
 	ostringstream os;
 	os << g.cave_state() << '\n';
-	os << "move of shoot (m or s)\n";
+	os << "move or shoot (m or s)\n";
 	text_res_box.put(os.str());
 	map.mark_room_status(g.cave_state().player_in_room, Cave_Map::been_here);
 	attach(text_res_box);
