@@ -3,4 +3,5 @@ This repository contains my solutions to C++ exercises while learning:
   - basic syntax
   - finctions and classes
   - STL
+
 Feedback is welcome :)
